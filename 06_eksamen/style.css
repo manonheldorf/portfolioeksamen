@@ -1,0 +1,654 @@
+.footerbillede {
+    height: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+/* slider */
+.mySlides {
+    display: none;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.mySlides:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    filter: blur(2.2px); /* Apply blur effect */
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+    display: inline-block;
+
+}
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+
+}
+.w3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+
+}
+
+.w3-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.w3-center, .w3-section, .w3-large, .w3-text-white, .w3-display-bottommiddle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.w3-content {
+    margin: 0;
+}
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+    display: inline-block;
+}
+
+
+.arrow:hover {
+    transform: scale(1.50); /* Slightly increase the size */
+}
+
+
+.seymour-one-regular {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .oi-regular {
+    font-family: 'Oi', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Oi', serif;
+}
+
+h2 {
+    font-family: "Seymour One", sans-serif;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 65ch;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: "Seymour One", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Seymour One', sans-serif;
+    text-decoration: none; /* Ensure no underline */
+    color: white;
+    font-size: 15px;
+    padding: 2%;
+}
+h5 {
+    font-family: 'Seymour One', sans-serif;
+    text-decoration: none; /* Ensure no underline */
+    color: white;
+    font-size: 15px;
+}
+
+
+.tekstoven {padding-bottom: 15px;}
+
+.footerbillede1 {
+    background-image: url('billeder/billedehelt.webp'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    /* Optionally, you can set other background properties like repeat, attachment, etc. */
+    opacity: 80%;
+}
+
+.mellemboks{background-color: blue;
+width: 100%;
+height: 100px;
+}
+
+.skillerbillede{
+    height: auto;
+    width: 100%;
+    margin-top: -2%;
+    margin-bottom:  -2%;
+    object-fit: fill;
+}
+.container {
+    position: relative;
+    display: inline-block; /* Ensure the container fits the image size */
+  }
+  
+  .tekstbox {
+    position: absolute;
+    top: 51%; /* Adjust as needed */
+    left: 27%; /* Adjust as needed */
+    max-width: 65ch;
+    background-color: #0000FE; /* Semi-transparent background */
+    padding: 40px;
+    font-family: 'Shrikhand', serif;
+    font-size: 20px;
+  }
+
+  .footerbillede {
+    width: 100%; /* Ensure the image scales correctly */
+    height: auto;
+  }
+  
+  .tekst-container {
+    margin-top: 20px; /* Add spacing between the image and the text below */
+  }
+
+  .sitet{  transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  /* Hover effect for menu links */
+  .sitet a:hover {
+    text-decoration: underline;
+    transform: scale(2.10); /* Slightly increase the size */
+  }
+  
+  .kontakt{  transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  /* Hover effect for menu links */
+  .kontakt a:hover {
+    text-decoration: underline;
+    transform: scale(2.10); /* Slightly increase the size */
+  }
+
+  .grid1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2%;
+    margin-top: 25px;
+    gap: 5%;
+  }
+.mellemboks2{
+    background-color: blue;
+width: 100%;
+height: auto;
+margin-bottom: 1%
+}
+
+.machines{width: 80%;}
+
+.container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.footerbillede {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.arrowdown {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0%; 
+    left: 50%;
+    font-size: 2em; /* Adjust the size as needed */
+    color: white; /* Change this color as needed */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.arrowdown a {
+    color: inherit; /* Ensure the link color inherits from the parent */
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Hover effect for the arrow */
+.arrowdown:hover {
+    transform:  scale(2.1); /* Slightly increase the size */
+}
+
+.deskmobil {
+
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.deskmobil a {
+    color: inherit; /* Ensure the link color inherits from the parent */
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Hover effect for the arrow */
+.deskmobil:hover {
+    transform:  scale(1.05); /* Slightly increase the size */
+}
+
+/* anden slider */
+
+.mySlides {
+    display: none;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.mySlides:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    filter: blur(2.2px); /* Apply blur effect */
+}
+
+.slide-left, .slide-right, .slide-badge {
+    cursor: pointer;
+    display: inline-block;
+
+}
+.slide-badge {
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+
+}
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+
+}
+
+.slide-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.slide-center, .slide-section, .slide-large, .slide-text-white, .slide-display-bottommiddle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.slide-content {
+    margin: 0;
+}
+.arrow2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+    display: inline-block;
+}
+.ikonner{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 10%;}
+
+.ommig{
+    border-radius: 50%;
+}
+
+.arrow2:hover {
+    transform: scale(1.50); /* Slightly increase the size */
+}
+
+.videoer{align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+/* mobil query */
+@media screen and (max-width: 900px) { 
+    .videoer{width: 50%;
+        align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    }
+    .machines{width: 80%;}
+
+    .grid1_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2%;
+        gap: 5%;
+      }
+
+      .arrowdown {
+  display: none;
+    }
+
+/* slider */
+.mySlides {
+    display: none;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.mySlides:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    filter: blur(2.2px); /* Apply blur effect */
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+    display: inline-block;
+
+}
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+
+}
+.w3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+
+}
+
+.w3-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.w3-center, .w3-section, .w3-large, .w3-text-white, .w3-display-bottommiddle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.w3-content {
+    margin: 0;
+}
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+    display: inline-block;
+}
+
+
+.arrow:hover {
+    transform: scale(1.50); /* Slightly increase the size */
+}
+
+
+.seymour-one-regular {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .seymour-one-regular2 {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .oi-regular {
+    font-family: 'Oi', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+
+body {
+    font-family: 'Oi', serif;
+}
+
+h2 {
+    font-family: "Seymour One", sans-serif;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 1.5;
+    max-width: 65ch;
+}
+h3 {
+    font-family: "Seymour One", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: 'Seymour One', sans-serif;
+    text-decoration: none; /* Ensure no underline */
+    color: white;
+    font-size: 10px;
+    padding: 5%;
+}
+
+.footerlogo {width: 100%;}
+
+h5 {
+    font-family: 'Seymour One', sans-serif;
+    text-decoration: none; /* Ensure no underline */
+    color: white;
+    text-transform: none;
+}
+
+.ommig{
+    border-radius: 50%;
+}
+.mellemboks{background-color: blue;
+width: 100%;
+height: 50px;}
+
+
+  .tekst-container {
+    margin-top: 20px; /* Add spacing between the image and the text below */
+  }
+
+  .sitet{  transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  
+  .kontakt{  transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+  }
+
+
+  .grid1_1{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+        align-self: center;
+        align-content: baseline;
+        justify-content: end;
+      }
+    
+      .gfg {
+        position: relative;
+        width: 100%;
+        text-align: center;
+      }
+  
+.mellemboks2{
+    background-color: blue;
+width: 100%;
+height: auto;
+}
+  
+.mellemboks3{
+    background-color: blue;
+width: 100%;
+margin-top: 6%;
+margin-bottom:  -2%;
+}
+.skillerbillede{
+    height: auto;
+    width: 100%;
+    margin-top: -2%;
+    margin-bottom:  -4%;
+    object-fit: fill;
+}
+.skillerbillede1{
+    height: 8%;
+    width: 100%;
+
+}
+.container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.deskmobil {
+
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.deskmobil a {
+    color: inherit; /* Ensure the link color inherits from the parent */
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Hover effect for the arrow */
+.deskmobil:hover {
+    transform:  scale(1.05); /* Slightly increase the size */
+}
+
+}

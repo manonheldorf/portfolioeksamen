@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823.7 504.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0000fe;
+        stroke: #0000fe;
+        stroke-width: 38px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #0000e2;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        font-family: 8-Heavy, 8;
+        font-weight: 800;
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        font-size: 250px;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: #0000e2;
+        stroke-width: 21px;
+      }
+
+      .cls-4 {
+        font-size: 60px;
+      }
+
+      .cls-5 {
+        fill: #2800ec;
+      }
+    </style>
+  </defs>
+  <g id="Lag_1" data-name="Lag 1">
+    <path class="cls-3" d="M571,173.6v-55.15c0-12.22-4.88-23.93-13.56-32.54l-.67-.66c-9.46-9.38-22.25-14.62-35.57-14.57l-255.11.86c-13.07.04-25.83-3.98-36.51-11.51l-36.38-25.65c-5.33-3.76-11.7-5.78-18.22-5.78H57.02c-9.41,0-18.43,3.81-24.99,10.55h0c-9.64,9.9-15.03,23.18-15.03,37v97.45h554Z"/>
+    <rect class="cls-1" x="19" y="101.6" width="558" height="384" rx="115.22" ry="115.22"/>
+  </g>
+  <g id="Lag_2" data-name="Lag 2">
+    <text class="cls-2" transform="translate(76.7 364.29)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-5" transform="translate(337.7 363.74)"><tspan x="0" y="0">H</tspan></text>
+    <text class="cls-4" transform="translate(246.24 48.5)"><tspan x="0" y="0">Manon Heldorf</tspan></text>
+  </g>
+</svg>
